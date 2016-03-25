@@ -22,6 +22,9 @@ defaults:
     values:
       layout: 'post'
 
+collections:
+  - skills
+
 # Build settings
 destination: _site
 paginate: 10

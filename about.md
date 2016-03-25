@@ -1,9 +1,10 @@
 ---
-layout: page
-title: About
+layout: about
+title: About me
 permalink: /about/
 ---
 
-Hello.
+# Hello
 
-I build software.
+## I build software
+

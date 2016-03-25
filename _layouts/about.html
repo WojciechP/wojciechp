@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<section class="content">
+{{ content }}
+</section>
+<section class="skills">
+<h3>Areas of expertise</h3>
+  {% for skill in site.skills %}
+  <div class="skill">
+    <h4>{{ skill.title }}
+      <small>{{ skill.description }}</small>
+    </h4>
+    <div class="skill-content">
+      {{ skill.output }}
+    </div>
+  </div>
+  {% endfor %}
+</section>

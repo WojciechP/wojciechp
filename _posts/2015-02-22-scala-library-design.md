@@ -1,13 +1,16 @@
 ---
 title: "Scala library design"
 date: "2015-02-22"
-categories: [software]
-tags: [scala, api, programming, library, playframework, elasticsearch]
+categories: [engineering]
+tags: [scala, api, playframework, elasticsearch]
 excerpt: >
   We've been using Play Framework with Elasticsearch using elastic4s for a
   while. Getting it all to work together requires some boilerplate code, though.
   We decided to create a small library that would make things easier in future
   projects. We learned some lessons about building Scala libraries along the way.
+meta:
+  description: "Good practices for designing library APIs"
+  keywords: "scala, api, programming, library, design, playframework, elasticsearch"
 ---
 We've been using [Play Framework] with [Elasticsearch] using [elastic4s] for a
 while. Getting it all to work together requires some boilerplate code, though.
