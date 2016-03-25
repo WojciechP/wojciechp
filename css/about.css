@@ -1,0 +1,10 @@
+.skill > header > h4 {
+  display: inline-block;
+}
+.skill > header > span {
+  color: gray;
+}
+.skill > header > span::before {
+  content: "| ";
+}
+

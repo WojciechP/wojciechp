@@ -1,8 +1,10 @@
 ---
 title: Search
-description: Fast and intuitive search you need.
+description: Relevance Matters
 ---
 
-I work with [ElasticSearch] on a daily basis.
+Good old `SELECT ... LIKE` no longer nails it. The services these days are
+expected to have specialized search engines built in - so I integrated a few
+systems with [ElasticSearch], a JSON-based search engine from Amazon.
 
 [ElasticSearch]: https://www.elastic.co/products/elasticsearch
