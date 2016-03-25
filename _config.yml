@@ -1,18 +1,18 @@
 # Site settings
-title: Jekyll-Uno
-description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
-url: 'http://joshgerdes.com/jekyll-uno'
-baseurl: '/jekyll-uno/'
+title: Wojciech Ptak
+description: "Developer's blog on humans and software"
+url: 'http://wojciech-ptak.eu'
+baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
 author:
-  name: 'Josh Gerdes'
-  email: josh@joshgerdes.com
-  twitter_username: joshgerdes
-  facebook_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
+  name: 'Wojciech Ptak'
+  email: wojtek.ptak@gmail.com
+#  twitter_username: joshgerdes
+#  facebook_username: joshgerdes
+  github_username: wojciechp
+#  linkedin_username:  joshgerdes
 
 defaults:
   -
@@ -20,7 +20,7 @@ defaults:
       path: ''
       type: 'posts'
     values:
-        layout: 'post'
+      layout: 'post'
 
 # Build settings
 destination: _site
