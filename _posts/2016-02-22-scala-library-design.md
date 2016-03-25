@@ -1,6 +1,6 @@
 ---
 title: "Scala library design"
-date: "2015-02-22"
+date: "2016-02-22"
 categories: [engineering]
 tags: [scala, api, playframework, elasticsearch]
 excerpt: >
