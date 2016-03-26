@@ -1,0 +1,17 @@
+<div class="main-post-list">
+
+  <ol class="post-list">
+    {% for post in paginator.posts %}
+    <li>
+      {% include post-header.html %}
+    </li>
+    {% endfor %}
+  </ol>
+
+  <hr class="post-list__divider ">
+
+  {% if paginator.previous_page or paginator.next_page %}
+      {% include pagination.html %}
+  {% endif %}
+
+</div>

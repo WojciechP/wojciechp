@@ -1,0 +1,10 @@
+---
+layout: default
+permalink: '404.html'
+---
+
+<h2>Sorry, there is no such page.</h2>
+<hr class="post-list__divider">
+
+{% assign post = site.posts.first %}
+<p>Check out the latest post: <a href="{{ post.url | remove_first: '/' | prepend: site.baseurl }}">{{ post.title }}</a> or <a href="{{ '#blog' | prepend: site.baseurl }}">go back to blog</a>.
