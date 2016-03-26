@@ -6,4 +6,4 @@ It is based on [jekyll uno] theme, which is MIT licensed. The content is all wri
 
 [jekyll uno]: https://github.com/joshgerdes/jekyll-uno
 
-[wojciechp.com]: https://wojciechp.com
+[wojciechp.com]: http://wojciechp.com
