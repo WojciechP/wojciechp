@@ -4,7 +4,7 @@ description: "Human, Learner, Developer"
 url: 'http://wojciech-ptak.eu'
 baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
-# disqus_shortname: 'your-disqus-name'
+disqus_shortname: 'wojciechp'
 
 author:
   name: 'Wojciech Ptak'
