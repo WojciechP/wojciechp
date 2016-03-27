@@ -2,9 +2,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  {% capture description %}{% if page.meta.description %}{{ page.meta.description }}{% else %}{{ site.description }}{% endif %}{% endcapture %}
+  {% capture title %}{% if page.title %}{{ page.title }}{% else %}{{ site.title}}{% endif %}{% endcapture %}
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{{ site.description }}">
+  <title>{{ title }}</title>
+  <meta name="description" content="{{ description }}">
   <meta name="author" content="{{ site.author.name }}">
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
@@ -13,12 +15,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="{{ site.title }}">
-  <meta name="twitter:description" content="{{ site.description }}">
+  <meta name="twitter:title" content="{{ title }}">
+  <meta name="twitter:description" content="{{ description }}">
 
   <meta property="og:type" content="article">
-  <meta property="og:title" content="{{ site.title }}">
-  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:description" content="{{ description }}">
+  <meta property="og:url" content="{{ page.url | prepend: site.url }}">
 
 <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{ "images/favicons/apple-touch-icon-57x57.png" | prepend: site.baseurl }}" />
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ "images/favicons/apple-touch-icon-114x114.png" | prepend: site.baseurl }}" />

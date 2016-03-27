@@ -1,7 +1,7 @@
 # Site settings
 title: Wojciech Ptak
 description: "Human, Learner, Developer"
-url: 'http://wojciech-ptak.eu'
+url: 'http://wojciechp.com'
 baseurl: '/'
 google_analytics: 'UA-43268157-3'
 disqus_shortname: 'wojciechp'
