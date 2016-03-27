@@ -9,10 +9,10 @@ disqus_shortname: 'wojciechp'
 author:
   name: 'Wojciech Ptak'
   email: wojtek.ptak@gmail.com
-#  twitter_username: joshgerdes
-#  facebook_username: joshgerdes
+  twitter_username: wojciech_ptak
+  facebook_username: wojciechp.blog
   github_username: wojciechp
-#  linkedin_username:  joshgerdes
+  linkedin_username:  ptakwojciech
 
 defaults:
   -
