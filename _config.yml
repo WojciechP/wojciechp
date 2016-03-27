@@ -3,7 +3,7 @@ title: Wojciech Ptak
 description: "Human, Learner, Developer"
 url: 'http://wojciech-ptak.eu'
 baseurl: '/'
-# google_analytics: 'UA-XXXXXX-X'
+google_analytics: 'UA-43268157-3'
 disqus_shortname: 'wojciechp'
 
 author:
