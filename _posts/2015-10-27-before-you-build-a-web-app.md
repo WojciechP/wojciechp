@@ -8,6 +8,7 @@ excerpt: >
 meta:
   description: "A few things worth considering before building a web app"
   keywords: "REST, API, learn, read, documentation"
+evo: "https://tech.evojam.com/2016/02/26/keep-your-library-simple-scala-api-design-case-study/"
 ---
 
 The abundance of all the tools and resources makes building web applications

@@ -10,6 +10,7 @@ excerpt: >
 meta:
   description: "Benefits of using contract-first approach for REST API design"
   keywords: "API, REST, design, contract first, software development, web services"
+evo: "https://tech.evojam.com/2016/01/15/contract-first-rest-api-design-how-different-what-are-the-benefits/"
 ---
 
 We're mostly building web applications these days. Even standalone apps have

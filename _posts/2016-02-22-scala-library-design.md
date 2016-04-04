@@ -11,6 +11,7 @@ excerpt: >
 meta:
   description: "Good practices for designing library APIs"
   keywords: "scala, api, programming, library, design, playframework, elasticsearch"
+evo: "https://tech.evojam.com/2016/02/26/keep-your-library-simple-scala-api-design-case-study/"
 ---
 We've been using [Play Framework] with [Elasticsearch] using [elastic4s] for a
 while. Getting it all to work together requires some boilerplate code, though.
