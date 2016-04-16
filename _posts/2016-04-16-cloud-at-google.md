@@ -8,6 +8,7 @@ excerpt: >
 meta:
   description: "Relation from Cloud @ Google event"
   keywords: "cloud, google, GCP, web services"
+image: "/images/gcp.png"
 ---
 
 
